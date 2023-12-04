@@ -1,1 +1,7 @@
 /*CSS dat op alle pagina's terukomt*/
+
+#wrapper1 {
+    display: flex;
+    width: 12%;
+    justify-content: center;
+}
