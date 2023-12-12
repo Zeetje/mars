@@ -6,3 +6,26 @@
     justify-content: center;
 }
 
+#bg {
+    width: 1920px;
+    height: 1080px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    filter: blur(2px);
+}
+
+#Home {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 290px;
+    left: 600px;
+}
+#Entertainment{
+    width: 300px;
+    height: 300px;
+    top: 100px;
+    left: 200px;
+    position: absolute;
+}
