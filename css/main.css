@@ -10,44 +10,52 @@
 }
 
 #Home {
-    width: 450px;
-    height: 450px;
+    width: 550px;
+    height: 550px;
     position: absolute;
     top: 290px;
-    left: 600px;
+    left: 800px;
 }
 #Entertainment{
-    width: 300px;
-    height: 300px;
-    top: 100px;
-    left: 300px;
+    width: 350px;
+    height: 350px;
+    top: 200px;
+    left: 500px;
     position: absolute;
 }
 #Info{
-    width: 300px;
-    height: 300px;
-    top: 400px;
-    left: 230px;
+    width:  350px;
+    height: 350px;
+    top: 600px;
+    left: 500px;
     position: absolute;
 }
 #Travel{
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     top: 30px;
-    left: 800px;
+    left: 930px;
     position: absolute;
 }
 #Health{
-    width: 300px;
-    height: 300px;
-    top: 30px;
-    left: 1000px;
+    width: 350px;
+    height: 350px;
+    top: 200px;
+    left: 1350px;
     position: absolute;
 }
 #Film{
-    width: 300px;
-    height: 300px;
-    top: 300px;
-    left: 1080px;
+    width: 350px;
+    height: 350px;
+    top: 600px;
+    left: 1330px;
+    position: absolute;
+}
+
+#Music{
+    width: 350px;
+    height: 350px;
+    top: 750px;
+    left: 930px;
     position: absolute;
 }
