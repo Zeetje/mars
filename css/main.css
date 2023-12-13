@@ -1,61 +1,58 @@
 /*CSS dat op alle pagina's terukomt*/
 
+body {
+    overflow: hidden;
+}
+
 #bg {
-    width: 1920px;
-    height: 1080px;
-    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
     top: 0px;
     left: 0px;
     filter: blur(2px);
 }
 
 #Home {
-    width: 550px;
-    height: 550px;
-    position: absolute;
-    top: 290px;
-    left: 800px;
+    width: 40vw;
+    position: fixed;
+    left: 30vw;
+    top: 25vh;
 }
 #Entertainment{
-    width: 350px;
-    height: 350px;
-    top: 200px;
-    left: 500px;
-    position: absolute;
+    width: 22vw;
+    position: fixed;
+    left: 10vw;
+    top: 25vh;
 }
 #Info{
-    width:  350px;
-    height: 350px;
-    top: 600px;
-    left: 500px;
-    position: absolute;
+    width: 22vw;
+    position: fixed;
+    left: 15vw;
+    top: 60vh;
 }
 #Travel{
-    width: 350px;
-    height: 350px;
-    top: 30px;
-    left: 930px;
-    position: absolute;
+    width: 22vw;
+    position: fixed;
+    left: 30vw;
+    top: -2vh;
 }
 #Health{
-    width: 350px;
-    height: 350px;
-    top: 200px;
-    left: 1350px;
-    position: absolute;
+    width: 22vw;
+    position: fixed;
+    left: 56vw;
+    top: 6vh;
 }
 #Film{
-    width: 350px;
-    height: 350px;
-    top: 600px;
-    left: 1330px;
-    position: absolute;
+    width: 22vw;
+    position: fixed;
+    left: 62vw;
+    top: 61vh;
 }
 
 #Music{
-    width: 350px;
-    height: 350px;
-    top: 750px;
-    left: 930px;
-    position: absolute;
+    width: 22vw;
+    position: fixed;
+    left: 72vw;
+    top: 31vh;
 }
