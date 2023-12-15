@@ -1,0 +1,30 @@
+#Home {
+    width: 32vw;
+    position: fixed;
+    left: 30vw;
+    top: 25vh;
+}
+#Entertainment{
+    width: 25vw;
+    position: fixed;
+    left: 10vw;
+    top: 5vh;
+}
+#Info{
+    width: 25vw;
+    position: fixed;
+    left: 10vw;
+    top: 50vh;
+}
+#Travel{
+    width: 25vw;
+    position: fixed;
+    left: 60vw;
+    top: 3vh;
+}
+#Health{
+    width: 25vw;
+    position: fixed;
+    left: 65vw;
+    top: 50vh;
+}
