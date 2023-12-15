@@ -1,0 +1,33 @@
+#bg1 {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+  
+}
+#Home {
+    width: 9vw;
+    position: fixed;
+    left: 3vw;
+    top: 2vh;
+}
+
+#films{
+    width: 30vw;
+    position: fixed;
+    left: 3vw;
+    top: 15vh;
+}
+#games{
+    width: 30vw;
+    position: fixed;
+    left: 67vw;
+    top: 15vh;
+}
+#muziek{
+    width: 30vw;
+    position: fixed;
+    left: 37vw;
+    top: 15vh;
+}

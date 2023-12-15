@@ -14,45 +14,35 @@ body {
 }
 
 #Home {
-    width: 40vw;
+    width: 32vw;
     position: fixed;
     left: 30vw;
     top: 25vh;
 }
 #Entertainment{
-    width: 22vw;
+    width: 25vw;
     position: fixed;
     left: 10vw;
-    top: 25vh;
+    top: 5vh;
 }
 #Info{
-    width: 22vw;
+    width: 25vw;
     position: fixed;
-    left: 15vw;
-    top: 60vh;
+    left: 10vw;
+    top: 50vh;
 }
 #Travel{
-    width: 22vw;
+    width: 25vw;
     position: fixed;
-    left: 30vw;
-    top: -2vh;
+    left: 60vw;
+    top: 3vh;
 }
 #Health{
-    width: 22vw;
+    width: 25vw;
     position: fixed;
-    left: 56vw;
-    top: 6vh;
-}
-#Film{
-    width: 22vw;
-    position: fixed;
-    left: 62vw;
-    top: 61vh;
+    left: 65vw;
+    top: 50vh;
 }
 
-#Music{
-    width: 22vw;
-    position: fixed;
-    left: 72vw;
-    top: 31vh;
-}
+
+
