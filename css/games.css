@@ -1,0 +1,42 @@
+main {
+    height: 75vh;
+    width: 100vw;
+    position: fixed;
+    top: 25vh;
+    left: 0;
+}
+
+#g_header {
+    background-color: rgba(255, 255, 255, 0.387);
+    border-radius: 0 2mm 2mm 0;
+    width: fit-content;
+}
+
+#wrapper5 {
+    display: flex;
+    margin-left: 5vw;
+}
+
+.hyper {
+    display: flex;
+    width: 15vw;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.387);
+}
+
+.hyper > a > img {
+    margin-top: 10%;
+    width: 100%;
+    height: auto;
+}
+
+.hyper > a {
+    width: 85%;
+}
+
+p {
+    width: 85%;
+}
