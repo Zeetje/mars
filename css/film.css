@@ -1,59 +1,15 @@
-body {
-	margin: 4px 32px;
-	background-color: rgb(0, 0, 0);
-}
-h2 {text-align: center;}
-/*******************************/
-.subGrid1 {
-  display: grid;
-  grid-auto-rows: 1fr;
-  grid-gap: 2px;
-}
-@media only screen and (min-width: 620px){
-  .subGrid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-  }
-}
-/****************************/
-section {margin: 3px 0;}
-section:nth-child(odd) {background: skyblue;}
-section:nth-child(even) {background: pink;}
-/* <Video> DIV ========================= */
+
 .wrapper1 {
   max-width: 20%;
   margin: 10px auto;
   padding: 10px 20px;
   background: #f4f7f8;
-  border-radius: 8px;
+  border-radius: 8px; 
+  position: absolute;
 }
 
-video, audio, iframe {
-  margin: 0 auto;
-  display: block;
-  width: 100%;  /* ADD 'Responsiveness' */
-}
-/****************************/
 
 
-.subGrid2 {
-    display: grid;
-    grid-auto-rows: 1fr;
-    grid-gap: 4px;
-  }
-  @media only screen and (min-width: 620px){
-    .subGrid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: 16px;
-    }
-  }
-  /****************************/
-  section {margin: 32px 0;}
-  section:nth-child(odd) {background: skyblue;}
-  section:nth-child(even) {background: pink;}
-  /* <Video> DIV ========================= */
   .wrapper2 {
     max-width: 90%;
     margin: 10px auto;
@@ -62,8 +18,78 @@ video, audio, iframe {
     border-radius: 8px;
   }
   
-  video, audio, iframe {
-    margin: 0 auto;
-    display: block;
-    width: 100%;  /* ADD 'Responsiveness' */
-  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.movie {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    padding: 10%;
+  
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main{
+  padding-top: 40PX;
+}
+header {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+}
+
+#wrapper1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: end;
+}
+
+#wrapper1 > *, #wrapper3 > *, img {
+  height: inherit;
+  width: inherit;
+}
+
+#wrapper2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#wrapper2 > * {
+  width: 100%;
+}
+
+#wrapper3 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#wrapper4 {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+}
+
+#filler1, #filler2 {
+  width: 40%;
+}
+
+.button1 {
+  width: 100%;
+}
