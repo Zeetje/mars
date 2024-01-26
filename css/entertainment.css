@@ -32,5 +32,10 @@
     top: 15vh;
 }
 
-
-  
+header {
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+}

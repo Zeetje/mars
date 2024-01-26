@@ -11,10 +11,11 @@ background-image: url(../imgs/bg.png);}
   flex-direction: column;
   align-items: center;
   width: 300px;
-  padding: 20px;
+  padding: 40px;
   background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(55, 55, 55, 0.1);
   border-radius: 8px;
+  
 }
 
 .cover img {
@@ -38,7 +39,7 @@ button {
   margin: 5px;
   cursor: pointer;
   border: none;
-  background-color: #4CAF50;
+  background-color: #3f42a5;
   color: #fff;
   border-radius: 4px;
   font-size: 14px;
@@ -46,4 +47,13 @@ button {
 
 button:hover {
   background-color: #3e2284;
+}
+
+header {
+  height: 20vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 2px; /* Add this line to ensure it stays at the top */
 }
