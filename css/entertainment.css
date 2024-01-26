@@ -31,3 +31,14 @@
     left: 37vw;
     top: 15vh;
 }
+<<<<<<< HEAD
+=======
+
+header {
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+}
+>>>>>>> 0e8384d541a6e315888043de2d2f7aab4385c18d
